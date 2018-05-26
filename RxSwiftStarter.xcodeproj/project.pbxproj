@@ -13,6 +13,7 @@
 		DC765E7B20B9251C00A61597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC765E7A20B9251C00A61597 /* Assets.xcassets */; };
 		DC765E7E20B9251C00A61597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC765E7C20B9251C00A61597 /* LaunchScreen.storyboard */; };
 		DC765E8B20B9256B00A61597 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC765E8720B9256B00A61597 /* RxSwift.framework */; };
+		DC765E9020B9293400A61597 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC765E8F20B9293400A61597 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DC765E7D20B9251C00A61597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC765E7F20B9251C00A61597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC765E8720B9256B00A61597 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
+		DC765E8F20B9293400A61597 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DC765E8520B9254F00A61597 /* Framework */,
 				DC765E7320B9251B00A61597 /* AppDelegate.swift */,
 				DC765E7520B9251B00A61597 /* ViewController.swift */,
+				DC765E8F20B9293400A61597 /* DetailViewController.swift */,
 				DC765E7720B9251B00A61597 /* Main.storyboard */,
 				DC765E7A20B9251C00A61597 /* Assets.xcassets */,
 				DC765E7C20B9251C00A61597 /* LaunchScreen.storyboard */,
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC765E9020B9293400A61597 /* DetailViewController.swift in Sources */,
 				DC765E7620B9251B00A61597 /* ViewController.swift in Sources */,
 				DC765E7420B9251B00A61597 /* AppDelegate.swift in Sources */,
 			);
